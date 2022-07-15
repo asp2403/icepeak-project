@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: ERROR
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/icepeak
+    username: postgres
+    password: postgres
